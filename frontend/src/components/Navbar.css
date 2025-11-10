@@ -1,0 +1,105 @@
+
+/* Navbar.css */
+
+.navBarSection {
+  width: 100%;
+  height:80px;
+  background-color:#27ae60;  /* ✅ Transparent background */
+  padding: 15px 0;
+  position: absolute;  /* ✅ Fix position to overlap image */
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logoDiv .logo {
+  text-decoration: none;
+  color: #125a12;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logoDiv .icon {
+  font-size: 50px;
+  margin-right: 15px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 80px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navLink {
+  text-decoration:none;
+  color: #fffafa;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #e25822;
+}
+
+.headerBtns {
+  display: flex;
+  gap: 15px;
+  margin-left: 30px;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #20cb37a1;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1dc414ed;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.loginBtn {
+  background-color: transparent;
+  border: 2px solid #4fe222ae;
+  color: #22e235c3;
+}
+
+.loginBtn:hover {
+  background-color: #45e222;
+  color: #fff;
+}
+
+.loginBtn a {
+  color: inherit;
+}
+
